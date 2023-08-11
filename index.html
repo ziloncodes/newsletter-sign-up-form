@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!--icon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!--css stylesheets-->  
+  <link rel="stylesheet" href="style.css" >
+  <link rel="stylesheet" href="desktopstyle.css" >
+  <link rel="stylesheet" href="mobilestyle.css" >
+
+  
+  <title>Frontend Mentor | ziloncodes</title>
+
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="signup">
+    <picture>
+      <source media="(min-width:45em)" srcset="images/sign-up-desktop.svg">
+      <img class="mobile" src="images/sign-up-mobile.svg" alt="">
+    </picture>
+    <article class="article">
+      <h1 class="h1">Stay updated!</h1>
+      <p class="phrase">
+        Join 60,000+ product managers receiving monthly updates on:
+      </p>
+      <ul class="ul">
+        <li class="ul_li">
+          <img src="images/icon-list.svg" alt="">
+          <span class="list">
+            Product discovery and building what matters
+          </span>
+        </li>
+        <li class="ul_li">
+          <img src="images/icon-list.svg" alt="">
+          <span class="list">
+            Measuring to ensure updates are a success
+          </span>
+        </li>
+        <li class="ul_li">
+          <img src="images/icon-list.svg" alt="">
+          <span class="list">
+            And much more!
+          </span>
+        </li>
+      </ul>
+      <div class="inputdiv">
+        <div class="labeldiv">
+          <label class="label" id="labelEmail" for="labelEmail">Email address</label>
+          <label class="label" id="labelError" for="email"></label>
+        </div>
+        <input id="email" type="email" placeholder="email@company.com" value="">
+      </div>
+      <button class="btn" id="subbtn">Subscribe to monthly newsletter</button>
+    </article>
+  </div>
+
+  <div class="signupsuccess">
+    <div class="signupsuccessdiv">
+      <img class="signupsuccessdivimg" src="images/icon-success.svg" alt="">
+      <h2 class="h2">Thanks for subscribing!</h2>
+      <p class="phrase">
+        A confirmation email has been sent to <strong id="currentMail"></strong> 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+    </div>
+    <button class="btn" id="dismissBtn">Dismiss message</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
