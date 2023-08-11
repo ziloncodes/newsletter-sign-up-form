@@ -62,8 +62,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.ziloncodes.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ziloncodes)
+- Website - [ziloncodes](https://www.ziloncodes.com)
+- Frontend Mentor - [@ziloncodes](https://www.frontendmentor.io/profile/ziloncodes)
 - Twitter - (https://www.twitter.com/ziloncodes)
 
 ## Acknowledgments
